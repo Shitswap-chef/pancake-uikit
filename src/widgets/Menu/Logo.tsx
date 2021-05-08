@@ -45,7 +45,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
       {isAbsoluteUrl ? (
         <StyledLink as="a" href={href} aria-label="Shitswap home page">
           <img
-            src="https://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true"
+            src="https://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.png?raw=true"
             alt="Shitswap Logo"
             className="mobile-icon"
           />
@@ -58,7 +58,7 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
       ) : (
         <StyledLink to={href} aria-label="Shitswap home page">
           <img
-            src="https://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true"
+            src="https://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.png?raw=true"
             alt="Shitswap Logo"
             className="mobile-icon"
           />
