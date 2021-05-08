@@ -10,11 +10,11 @@ export const links = [
     items: [
       {
         label: "Exchange",
-        href: "https://exchange.milkswap.app",
+        href: "https://exchange.Shitswap.app",
       },
       {
         label: "Liquidity",
-        href: "https://exchange.milkswap.app/#/pool",
+        href: "https://exchange.Shitswap.app/#/pool",
       },
     ],
   },
@@ -95,7 +95,7 @@ export const links = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/milkswap",
+        href: "Shitswaphttps://github.com/Shitswap-chef",
       },
       {
         label: "Blog",
@@ -112,14 +112,14 @@ export const socials = [
     items: [
       {
         label: "English",
-        href: "https://t.me/milkswap_bsc",
+        href: "https://t.me/Shitswap_bsc",
       },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/milkswap_bsc",
+    href: "https://twitter.com/Shitswap_bsc",
   },
 ];
 

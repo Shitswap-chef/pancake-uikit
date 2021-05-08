@@ -43,28 +43,28 @@ const Logo: React.FC<Props> = ({ isPushed, togglePush, isDark, href }) => {
         )}
       </MenuButton>
       {isAbsoluteUrl ? (
-        <StyledLink as="a" href={href} aria-label="MilkSwap home page">
+        <StyledLink as="a" href={href} aria-label="Shitswap home page">
           <img
-            src="https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true"
-            alt="Milkswap Logo"
+            src="Shitswaphttps://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true"
+            alt="Shitswap Logo"
             className="mobile-icon"
           />
           <img
-            src="https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/milkswap_logo.svg?raw=true"
-            alt="Milkswap Logo"
+            src="Shitswaphttps://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/Shitswap_logo.svg?raw=true"
+            alt="Shitswap Logo"
             className="desktop-icon"
           />
         </StyledLink>
       ) : (
-        <StyledLink to={href} aria-label="MilkSwap home page">
+        <StyledLink to={href} aria-label="Shitswap home page">
           <img
-            src="https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true"
-            alt="Milkswap Logo"
+            src="Shitswaphttps://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true"
+            alt="Shitswap Logo"
             className="mobile-icon"
           />
           <img
-            src="https://github.com/MilkSwap/pancake-uikit/blob/master/src/widgets/Menu/milkswap_logo.svg?raw=true"
-            alt="Milkswap Logo"
+            src="Shitswaphttps://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/Shitswap_logo.svg?raw=true"
+            alt="Shitswap Logo"
             className="desktop-icon"
           />
         </StyledLink>
