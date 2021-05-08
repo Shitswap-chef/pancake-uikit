@@ -95,7 +95,7 @@ export const links = [
     items: [
       {
         label: "Github",
-        href: "Shitswaphttps://github.com/Shitswap-chef",
+        href: "https://github.com/Shitswap-chef",
       },
       {
         label: "Blog",

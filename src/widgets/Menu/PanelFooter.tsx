@@ -60,7 +60,7 @@ const PanelFooter: React.FC<Props> = ({ isPushed, pushNav, cakePriceUsd }) => {
         {cakePriceUsd ? (
           <PriceLink href="https://pancakeswap.info/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82" target="_blank">
             <img
-              src="Shitswaphttps://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.png?raw=true"
+              src="https://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.png?raw=true"
               alt="Shitswap Logo"
               style={{
                 width: "24px",

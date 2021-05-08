@@ -2074,10 +2074,10 @@ var Logo$1 = function (_a) {
     return (React.createElement(Flex, null,
         React.createElement(MenuButton, { "aria-label": "Toggle menu", onClick: togglePush, mr: "24px" }, isPushed ? (React.createElement(Icon$N, { width: "24px", color: "textSubtle" })) : (React.createElement(Icon$M, { width: "24px", color: "textSubtle" }))),
         isAbsoluteUrl ? (React.createElement(StyledLink$1, { as: "a", href: href, "aria-label": "Shitswap home page" },
-            React.createElement("img", { src: "Shitswaphttps://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true", alt: "Shitswap Logo", className: "mobile-icon" }),
-            React.createElement("img", { src: "Shitswaphttps://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/Shitswap_logo.svg?raw=true", alt: "Shitswap Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink$1, { to: href, "aria-label": "Shitswap home page" },
-            React.createElement("img", { src: "Shitswaphttps://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true", alt: "Shitswap Logo", className: "mobile-icon" }),
-            React.createElement("img", { src: "Shitswaphttps://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/Shitswap_logo.svg?raw=true", alt: "Shitswap Logo", className: "desktop-icon" })))));
+            React.createElement("img", { src: "https://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true", alt: "Shitswap Logo", className: "mobile-icon" }),
+            React.createElement("img", { src: "https://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/shitswap_logo.png?raw=true", alt: "Shitswap Logo", className: "desktop-icon" }))) : (React.createElement(StyledLink$1, { to: href, "aria-label": "Shitswap home page" },
+            React.createElement("img", { src: "https://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.svg?raw=true", alt: "Shitswap Logo", className: "mobile-icon" }),
+            React.createElement("img", { src: "https://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/shitswap_logo.png?raw=true", alt: "Shitswap Logo", className: "desktop-icon" })))));
 };
 var templateObject_1$y;
 
@@ -2178,7 +2178,7 @@ var links = [
         items: [
             {
                 label: "Github",
-                href: "Shitswaphttps://github.com/Shitswap-chef",
+                href: "https://github.com/Shitswap-chef",
             },
             {
                 label: "Blog",
@@ -2327,7 +2327,7 @@ var PanelFooter = function (_a) {
     return (React.createElement(Container$4, null,
         React.createElement(SocialEntry, null,
             cakePriceUsd ? (React.createElement(PriceLink, { href: "https://pancakeswap.info/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", target: "_blank" },
-                React.createElement("img", { src: "Shitswaphttps://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.png?raw=true", alt: "Shitswap Logo", style: {
+                React.createElement("img", { src: "https://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.png?raw=true", alt: "Shitswap Logo", style: {
                         width: "24px",
                         marginRight: "8px",
                     } }),
@@ -2749,7 +2749,7 @@ var baseColors = {
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#f1f6f8", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeeee", tertiary: "#EFF4F5", text: "#5f7888", textDisabled: "#BDC2C4", textSubtle: "#5EC3DA", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#f1f6f8", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeeee", tertiary: "#EFF4F5", text: "#5f7888", textDisabled: "#BDC2C4", textSubtle: "#582900", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
 var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#9A6AFF", background: "#100C18", backgroundDisabled: "#3c3742", contrast: "#FFFFFF", invertedContrast: "#191326", input: "#483f5a", primaryDark: "#0098A1", tertiary: "#353547", text: "#EAE2FC", textDisabled: "#666171", textSubtle: "#A28BD4", borderColor: "#524B63", card: "#27262c", gradients: {
