@@ -2106,11 +2106,11 @@ var links = [
         items: [
             {
                 label: "Exchange",
-                href: "https://exchange.Shitswap.app",
+                href: "https://exchange.pancakeswap.finance/#/swap",
             },
             {
                 label: "Liquidity",
-                href: "https://exchange.Shitswap.app/#/pool",
+                href: "https://exchange.pancakeswap.finance/#/pool",
             },
         ],
     },
@@ -2214,7 +2214,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/Shitswap_bsc",
+        href: "https://twitter.com/Shitswap1",
     },
 ];
 var MENU_HEIGHT = 64;
@@ -2339,7 +2339,7 @@ var PanelFooter = function (_a) {
     }
     return (React__default['default'].createElement(Container$4, null,
         React__default['default'].createElement(SocialEntry, null,
-            cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://pancakeswap.info/token/0x170f76Ac0FEf9A3A8ac1EC8A91479029470181AA", target: "_blank" },
+            cakePriceUsd ? (React__default['default'].createElement(PriceLink, { href: "https://pancakeswap.info/token/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82", target: "_blank" },
                 React__default['default'].createElement("img", { src: "https://github.com/Shitswap-chef/pancake-uikit/blob/master/src/widgets/Menu/logo.png?raw=true", alt: "Shitswap Logo", style: {
                         width: "24px",
                         marginRight: "8px",

@@ -119,7 +119,7 @@ export const socials = [
   {
     label: "Twitter",
     icon: "TwitterIcon",
-    href: "https://twitter.com/Shitswap_bsc",
+    href: "https://twitter.com/Shitswap1",
   },
 ];
 
